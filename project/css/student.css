@@ -1,0 +1,106 @@
+    * html,body{
+        margin: 0;
+        padding: 0;
+    }
+
+
+        header
+    {
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../image/student.jpg);
+        height: 400px;
+         background-size: cover;
+            background-position: center;
+    }
+    ul{
+        float: right;
+        list-style-type: none;
+
+    }
+    ul li {
+        display: inline-block;
+    }
+    ul li a
+    {
+        text-decoration: none;
+        color: white;
+        padding: 5px 20px;
+        border: 1px solid #eab919;
+        transition: 0.5s ease-in;
+    }
+
+
+    ul li a:hover{
+        background-color: black;
+        color: white;
+    }
+
+    ul li.active a{
+        background-color: black;
+        color: white;
+    }
+
+
+    .logo img{
+        float: left;
+
+    }
+    .container{
+        max-width: 1300px;
+        margin: auto;
+
+    }
+    .title{
+        position: absolute;
+        top : 35%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+
+    }
+    .title h1{
+        color: #eab919;
+        font-size:30px;
+    }
+    .button{
+         position: absolute;
+        top : 45%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+
+    }
+    .btn{
+
+        color: white;
+        padding: 5px 20px;
+        border: 1px solid #eab919;
+        text-decoration: none;
+
+    }
+    .btn:hover{
+        background-color: black;
+        color: white; 
+
+    }
+    .column {
+      float: left;
+      width: 31%;
+
+    }
+    .column h3{
+        color: darkred;
+    }
+
+    /*
+    .left.right{
+    width: 75%;
+    }
+    .middle{
+        width: 30%;
+    }
+    */
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
